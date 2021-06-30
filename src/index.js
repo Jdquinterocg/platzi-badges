@@ -1,16 +1,11 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
+import React from 'react'; //React como análogo a createElement
+import ReactDOM from 'react-dom'; // ReactDOM a appendChild
+import 'bootstrap/dist/css/bootstrap.css';
+import './global.css'
 
-// const container = document.getElementById('app');
-
-// container.appendChild(element);
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-const element = <h1>Hello, Platzi Badges!</h1>;
+import Badge from './components/Badge';
 
 const container = document.getElementById('app');
 
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+//ReactDOM.render() toma dos argumentos: Qué queremos renderizar y dónde lo queremos renderizar.
+ReactDOM.render(<Badge />, container);
