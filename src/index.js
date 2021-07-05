@@ -10,4 +10,4 @@ import Badges from "./pages/Badges";
 const container = document.getElementById("app");
 
 //ReactDOM.render() toma dos argumentos: Qué queremos renderizar y dónde lo queremos renderizar.
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
