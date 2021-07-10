@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 import './styles/badgeList.css'
 import twitterLogo from '../images/twitter.svg'

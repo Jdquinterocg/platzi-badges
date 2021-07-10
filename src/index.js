@@ -4,10 +4,9 @@ import ReactDOM from "react-dom"; // ReactDOM a appendChild
 import "bootstrap/dist/css/bootstrap.css";
 import "./global.css";
 
-import BadgeNew from "./pages/BadgeNew";
-import Badges from "./pages/Badges";
+import App from "./components/App";
 
 const container = document.getElementById("app");
 
 //ReactDOM.render() toma dos argumentos: Qué queremos renderizar y dónde lo queremos renderizar.
-ReactDOM.render(<Badges />, container);
+ReactDOM.render(<App />, container);
